@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: nowrap; */
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px;
+  height: 100vh;
+}
+
+.left-section,
+.right-section {
+  height: 100%;
+  width: 100%; /* Modified */
+}
+
+.left-section {
+  background-color: #000;
+}
+
+.right-section {
+  background-color: #000;
+  min-width: 0%;
+}
