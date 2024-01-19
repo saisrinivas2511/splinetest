@@ -19,6 +19,10 @@
 }
 
 .right-section {
-  background-color: #000;
-  min-width: 0%;
+  background-color: #282c34;
+  min-width: 55%;
+}
+.right-title {
+  display: flex;
+  justify-content: space-evenly;
 }
